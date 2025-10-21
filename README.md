@@ -3,7 +3,7 @@
 ## Run
 # server
 cd server && npm install
-cp .env.example .env  
+cp .env.example .env  #填好变量
 npm start
 
 # client

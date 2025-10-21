@@ -1,13 +1,14 @@
 # Campus Connect (Next.js + Express + MongoDB)
 
-## Run
-# server
-cd server && npm install
-cp .env.example .env   # 填好变量
-npm start
+Small full-stack demo for posts & comments.  
+Client: **Next.js**. Server: **Express + MongoDB**.  
+Features: **REST APIs**, **JWT auth**, **CORS**, input validation, basic rate limiting, Postman scripts.
 
-# client
-cd ../client && npm install
-cp .env.local.example .env.local
-npm run dev
+## Tech Stack
+- Frontend: Next.js (App Router), TypeScript
+- Backend: Node.js, Express, JWT, CORS, Mongoose
+- Database: MongoDB (Atlas or local)
+- Tooling: npm, Postman, Git/GitHub
+
+## Repo Structure
 
